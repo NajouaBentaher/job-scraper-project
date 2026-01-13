@@ -19,9 +19,10 @@ pipenv install --dev pytest
 pipenv shell
 ```
 
-## Status
-- [x] Project initialized
-- [x] Git repository created
-- [ ] Dynamic job scraping
-- [ ] Data extraction
-- [ ] Storage & analysis
+## Dynamic Scraping (Playwright)
+This project uses Playwright to scrape JavaScript-rendered job listings.
+
+```bash
+pipenv install playwright
+pipenv run playwright install
+```
