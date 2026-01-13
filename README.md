@@ -17,3 +17,10 @@ pipenv --python 3.12
 pipenv install requests beautifulsoup4 pandas
 pipenv install --dev pytest
 pipenv shell
+
+## Status
+- [x] Project initialized
+- [x] Git repository created
+- [ ] Dynamic job scraping
+- [ ] Data extraction
+- [ ] Storage & analysis
